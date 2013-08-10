@@ -1,0 +1,18 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Hello World example
+ */
+
+grammar hello;
+
+public <key> = (Key) (up | down | right | left | delete | escape| enter);
+public <programms> = (All) (Programms);
+public <music> = (play | stop) (the Music);
+public <title> = (next | preview ) (title);
+public <tab> = (open | close) (Tab);
+public <songname> = (what is the name of this title);
+public <songalbum> = (what is the name of this album);
+public <workspace> = (Right | Left | All) (workspace);
+public <weather> = (How is the weather) (today | tomorrow);
+public <time> = (what is the) (time | date);
